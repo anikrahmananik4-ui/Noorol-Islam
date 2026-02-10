@@ -1,0 +1,11 @@
+
+/* TailWind is loaded via CDN in index.html, but Vite expects a CSS entry point sometimes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
